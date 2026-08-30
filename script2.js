@@ -5,7 +5,7 @@ let rightSide = document.querySelector("#right-side");
 let searchInput = document.querySelector("#search-input");
 let newQuestionBtn = document.querySelector("#new-question-btn");
 let leftSide = document.querySelector("#left-side");
-
+ 
 display(); 
 showQuestionForm();
 
