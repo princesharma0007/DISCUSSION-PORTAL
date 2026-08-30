@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DISCUSSION PORTAL</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="fixed top-0 left-0 z-50 flex h-20 w-full items-center bg-gray-900 px-10 text-2xl text-white cursor-default">
+        DISCUSSION PORTAL
+    </header>
+     <main class="flex">
+        <section id="left-side" class="min-h-screen w-1/2 px-10 pb-10 pt-32">
+            <div id="search-section" class="mb-8 flex items-center gap-4" >
+                 <button id="new-question-btn" class="rounded-lg bg-gray-900 px-4 py-2 text-white hover:bg-gray-700">
+                    New Question Form
+                  </button>
+                  <input type="text" id="search-input" placeholder="Search questions"
+                    class="rounded-lg border border-gray-500 px-4 py-2 outline-none"/>
+
+            </div>
+          
+
+            <div id="display-question" class="w-full overflow-y-auto cursor-default">
+                
+            </div>
+        </section>
+        
+        <section id="right-side" class="fixed right-0 top-20 h-[calc(100vh-5rem)] w-1/2 px-10 py-20">
+            <div class="text-center">
+                 <h2 class="text-4xl font-bold">WELCOME TO DISCUSSION PORTAL </h2>
+                 <h3 class="my-5 text-lg">Enter a subject and question to get started</h3>
+                 <input type="text" id="subject-input" placeholder="Subject" class="w-96 rounded-lg border border-gray-500 px-4 py-2 outline-none" />
+                 <textarea id="question-box" placeholder="Question" class="mx-auto my-6 block h-40 w-96 rounded-lg border border-gray-500 px-4 py-3 outline-none"></textarea>
+               <div id="response-section" class="mt-4 h-40 overflow-y-auto ">
+
+               </div>
+
+                </div>
+                <button id="Submit-btn" class="rounded-lg bg-gray-900 px-4 py-2 text-white hover:bg-gray-700"> Submit</button>
+                </div>
+
+        </section>
+     </main>
+  <script src="script2.js"></script>
+</body>
+</html>
