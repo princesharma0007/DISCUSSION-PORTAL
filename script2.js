@@ -7,7 +7,7 @@ let newQuestionBtn = document.querySelector("#new-question-btn");
 let leftSide = document.querySelector("#left-side");
 
 display(); 
-showQuestionForm();  
+showQuestionForm();   
 
 function showQuestionForm(){
     rightSide.dataset.id = "";
