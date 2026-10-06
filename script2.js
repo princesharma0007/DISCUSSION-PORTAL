@@ -1,5 +1,5 @@
 let questions = JSON.parse(localStorage.getItem("questions")) || [];
-   
+
 let displayQuestion = document.querySelector("#display-question");
 let rightSide = document.querySelector("#right-side");
 let searchInput = document.querySelector("#search-input");
